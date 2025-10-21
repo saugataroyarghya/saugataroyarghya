@@ -12,7 +12,7 @@
 ## 🏆 Flagship Project
 
 ### [Analog Clock Reader](https://github.com/saugataroyarghya/Analog-Clock-Reader)
-A computer vision project designed to read and interpret analog clock faces using AI—combining image processing, deep learning, and automation.
+A image processing project designed to read and interpret analog clock faces using image processing without the use of ML.
 
 ## 🔬 Current Research
 I'm currently investigating **Bias in Large Language Models (LLMs)**—focusing on fairness, transparency, and ethical AI.
