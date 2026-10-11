@@ -11,18 +11,19 @@ I build AI applications—from training and evaluating models to serving them th
 - I'm interested in multilingual NLP, bias in language models, and the infrastructure that makes AI systems useful in practice.
 
 ## 🏆 Featured Projects
+### IELTS Scoring — writing, speaking and inference
 
-### 📝 IELTS Writing Scoring
-[Hugging Face Model](https://huggingface.co/saugataroy/ielts-task2-modernbert-base-moe) · [Inference API](https://github.com/saugataroyarghya/ielts-inference-api)
+[Writing Scoring](https://github.com/saugataroyarghya/ielts-writing-scoring) · [Speaking Scorer](https://github.com/saugataroyarghya/ielts-speaking-scorer) · [Inference API](https://github.com/saugataroyarghya/ielts-inference-api) · [Writing Model](https://huggingface.co/saugataroy/ielts-task2-modernbert-base-moe/tree/ad150d954cc9af7fa848fedeafeef6c28c71e2c6) · [Speaking Model](https://huggingface.co/saugataroy/ielts-speaking-scorer)
 
-An experimental IELTS Writing Task 2 scorer built with **ModernBERT and a multi-gate mixture-of-experts head**.
+- **Built:** An experimental IELTS scoring project covering **model training, evaluation, publication, and API serving**.
+- **Model engineering:** ModernBERT transfer learning with MLP and dense MoE heads; a **LoRA-adapted audio encoder and frozen text encoder** for speaking.
+- **Writing:** **1.1289 macro MAE** on **450 Writing9-labeled holdout essays** for the API-pinned checkpoint, predicting **4 Task 2 criteria**.
+- **Speaking:** **0.8721 mock-band MAE** on **43 recordings** — **47% lower** than the training-median baseline.
+- **Serving:** **2 authenticated BentoML endpoints** with input validation, audio preprocessing, pinned artifacts, and separate adaptive batching workers.
+- **Reproducibility:** Grouped data splits, baseline comparisons, published training/evaluation source, model provenance, and source-check CI.
 
-- Trained through writing-proficiency transfer learning followed by IELTS fine-tuning to predict four writing rubric scores.
-- Evaluated using grouped data splits, baseline comparisons, held-out results, and behavioral probes.
-- Published model weights, provenance, evaluation results, and inference benchmarks.
-- Built a **BentoML API** with pinned artifacts, offline CPU inference, regression tests, CI, and container verification.
+*Experimental scores; independent IELTS examiner validation has not been established.*
 
-Evaluation measures agreement with Writing9 labels; independent IELTS examiner agreement has not been established.
 
 ### 🧠 [NLP Serving](https://github.com/saugataroyarghya/nlp-serving)
 
