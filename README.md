@@ -11,7 +11,7 @@ I build AI applications—from training and evaluating models to serving them th
 - I'm interested in multilingual NLP, bias in language models, and the infrastructure that makes AI systems useful in practice.
 
 ## 🏆 Featured Projects
-### IELTS Scoring — writing, speaking and inference
+### 📝 IELTS Scoring — writing, speaking and inference
 
 [Writing Scoring](https://github.com/saugataroyarghya/ielts-writing-scoring) · [Speaking Scorer](https://github.com/saugataroyarghya/ielts-speaking-scorer) · [Inference API](https://github.com/saugataroyarghya/ielts-inference-api) · [Writing Model](https://huggingface.co/saugataroy/ielts-task2-modernbert-base-moe/tree/ad150d954cc9af7fa848fedeafeef6c28c71e2c6) · [Speaking Model](https://huggingface.co/saugataroy/ielts-speaking-scorer)
 
