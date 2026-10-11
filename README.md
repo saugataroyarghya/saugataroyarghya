@@ -13,7 +13,7 @@ I build AI applications—from training and evaluating models to serving them th
 ## 🏆 Featured Projects
 ### 📝 IELTS Scoring — writing, speaking and inference
 
-[Inference API](https://github.com/saugataroyarghya/ielts-inference-api) · [Writing Model](https://huggingface.co/saugataroy/ielts-task2-modernbert-base-moe/tree/ad150d954cc9af7fa848fedeafeef6c28c71e2c6) · [Speaking Model](https://huggingface.co/saugataroy/ielts-speaking-scorer) · [Writing Model Training](https://github.com/saugataroyarghya/ielts-writing-scoring) · [Speaking Model Training](https://github.com/saugataroyarghya/ielts-speaking-scorer)
+[IELTS Scoring API](https://github.com/saugataroyarghya/ielts-inference-api) · [Writing Model](https://huggingface.co/saugataroy/ielts-task2-modernbert-base-moe/tree/ad150d954cc9af7fa848fedeafeef6c28c71e2c6) · [Speaking Model](https://huggingface.co/saugataroy/ielts-speaking-scorer) · [Writing Model Training](https://github.com/saugataroyarghya/ielts-writing-scoring) · [Speaking Model Training](https://github.com/saugataroyarghya/ielts-speaking-scorer)
 
 - **Built:** An experimental IELTS scoring project covering **model training, evaluation, publication, and API serving**.
 - **Model engineering:** ModernBERT transfer learning with MLP and dense MoE heads; a **LoRA-adapted audio encoder and frozen text encoder** for speaking.
