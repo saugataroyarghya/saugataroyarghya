@@ -64,7 +64,6 @@ Reads time from clock images using **classical image processing**, including con
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Unsloth](https://img.shields.io/badge/Unsloth-%2310B981?style=flat-square&logo=python&logoColor=white)
 
 ## 🔬 Research Interests
 
